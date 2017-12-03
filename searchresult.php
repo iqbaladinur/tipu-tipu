@@ -60,7 +60,7 @@
 						</div>
 						<div class="card-content text-center">
 							<?php if($method=='a'){
-									 echo $row['nama_alias1']==""?$row['nama_penipu']:$row['nama_penipu']."/".$row['nama_alias1'];
+									 echo $row['nama_alias1']==""?$row['nama_penipu']:$row['nama_penipu']."(A.K.A ".$row['nama_alias1'].")";
 								  }elseif($method=='b'){echo $row['notelp_pnp'];}
 								  elseif($method=='c'){echo $row['rek_pnp'];}
 							?>
