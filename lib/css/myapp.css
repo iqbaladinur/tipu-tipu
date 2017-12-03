@@ -137,7 +137,8 @@ a.tutup:focus{
 }
 .card-img-header{
 	width: 100%;
-	height: auto;
+	height: 130px;
+	overflow: center;
 	padding: 0px;
 	border-bottom: 1.5px solid rgba(0,0,0,0.12);
 }
