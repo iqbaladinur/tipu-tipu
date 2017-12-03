@@ -59,8 +59,9 @@
 							<img class="img-view" src="<?php if($row['foto']==""){echo "media/img-source/default.png";}else{echo "media/upload/penipu_img/".$row['foto'];}?>">
 						</div>
 						<div class="card-content text-center">
-							<?php if($method=='a'){echo $row['nama_penipu']."/".$row['nama_alias1'];}
-								  elseif($method=='b'){echo $row['notelp_pnp'];}
+							<?php if($method=='a'){
+									 echo $row['nama_alias1']==""?$row['nama_penipu']:$row['nama_penipu']."/".$row['nama_alias1'];
+								  }elseif($method=='b'){echo $row['notelp_pnp'];}
 								  elseif($method=='c'){echo $row['rek_pnp'];}
 							?>
 						</div>
