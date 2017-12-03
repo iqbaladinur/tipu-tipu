@@ -56,7 +56,7 @@
 				<div class="col-sm-2">
 					<div class='card'>
 						<div class="card-img-header text-center">
-							<img width="100%" src="<?php if($row['foto']==""){echo "media/img-source/default.png";}else{echo "media/upload/penipu_img/".$row['foto'];}?>">
+							<img class="img-view" src="<?php if($row['foto']==""){echo "media/img-source/default.png";}else{echo "media/upload/penipu_img/".$row['foto'];}?>">
 						</div>
 						<div class="card-content text-center">
 							<?php if($method=='a'){echo $row['nama_penipu']."/".$row['nama_alias1'];}
