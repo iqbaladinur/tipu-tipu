@@ -7,7 +7,7 @@
 	$pass="";
 	$db="kenatipudb";
 	*/
-	$server="127.0.0.1:57076";
+	$server="127.0.0.1:57086";
 	$username="azure";
 	$pass="6#vWHD_$";
 	$db="localdb";
