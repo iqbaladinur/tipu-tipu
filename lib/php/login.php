@@ -16,7 +16,7 @@
 		*/
 		$sql="SELECT * FROM user_id WHERE id_usr='$user' OR e_mail='$user'";
 		$result=mysql_query($sql);
-		var_dump($result);
+		var_dump(mysql_num_rows($result));
 		// if (mysql_num_rows($result) == 1) { //cek sql result
 		// 	$data_user=mysql_fetch_array($result);
 		// 	if ($password==$data_user['pass']) { //cek password
